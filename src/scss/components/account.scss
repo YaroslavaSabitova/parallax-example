@@ -1,0 +1,36 @@
+.account {
+    font-size: 18px;
+    font-weight: bold;
+
+    @media (max-width: 991px) {
+        margin-bottom: 30px;
+    }
+
+    &__img,
+    &__img path,
+    &__link {
+        transition: all 0.3s ease;
+    }
+
+    &__img {
+        margin-right: 10px;
+        background-color: var(--color-transparent);
+    }
+
+    &__link {
+        color: var(--color-white);
+
+        &:active,
+        &:hover {
+            color: var(--color-accent);
+        }
+    }
+
+    &:hover &__img path {
+        fill: var(--color-accent);
+    }
+
+    .menu-open & {
+        margin-bottom: 30px;
+    }
+}
