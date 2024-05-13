@@ -16,8 +16,14 @@ const babel = require('gulp-babel');
 gulp.task('server', function () {
     browserSync({
         server: {
-            baseDir: 'dist'
-        }
+            baseDir: './'
+            // baseDir: 'dist'
+        },
+        notify: false,
+        host: 'localhost',
+        open: 'external',
+        port: 3000,
+        logPrefix: 'server'
     });
 
     gulp.watch('src/*.html').on('change', browserSync.reload);
@@ -76,10 +82,13 @@ gulp.task('html', function () {
         .pipe(plumber(plumberNotify('HTML')))
         .pipe(
             htmlmin({
-                collapseWhitespace: true
+                collapseWhitespace: true,
+                minifyCSS: true,
+                removeComments: true
             })
         )
-        .pipe(gulp.dest('dist/'));
+        .pipe(gulp.dest('./'));
+    // .pipe(gulp.dest('dist'))
 });
 
 gulp.task('scripts', function () {
@@ -92,11 +101,8 @@ gulp.task('scripts', function () {
                 mode: 'production',
                 entry: {
                     index: './src/js/script.js'
-                    // contacts: './src/js/contacts.js',
-                    // about: './src/js/about.js',
                 },
                 output: {
-                    // filename: '[name].bundle.js'
                     filename: 'script.js'
                 },
                 module: {
