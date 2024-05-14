@@ -5,6 +5,8 @@
     z-index: 1000;
     width: 100%;
 
+    font-family: var(--font-family);
+
     &__wrapper {
         padding: 55px 75px;
         justify-content: space-between;
@@ -62,8 +64,8 @@
 
 .nav {
     position: relative;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 700;
 
     &__link,
     &__item {

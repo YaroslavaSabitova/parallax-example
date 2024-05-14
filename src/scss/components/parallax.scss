@@ -24,6 +24,14 @@
         object-fit: contain;
         background: var(--color-transparent);
 
+        &_text {
+            top: 300px;
+            z-index: 2;
+            margin: 0 auto;
+            max-width: 820px;
+            // transform: translateY(300px) translateZ(-250px) scale(1.15);
+        }
+
         &_0 {
             transform: translateY(0px) translateZ(-1000px) scale(2);
 
@@ -58,6 +66,7 @@
         }
 
         &_2 {
+            z-index: 3;
             transform: translateY(690px) translateZ(0px) scale(1);
 
             @media (max-width: 1199px) {
