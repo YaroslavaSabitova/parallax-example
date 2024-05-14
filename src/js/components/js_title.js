@@ -20,7 +20,7 @@ export default function () {
     // console.log('restOfParallax', restOfParallax);
 
     function changeTitlePos() {
-        // how much we scroll
+        // how much have we scrolled
         // console.log('parallax.scrollTop', parallax.scrollTop);
 
         const titleTransformY = (parallax.scrollTop / restOfParallax).toFixed(3) * 100 * SPEED;

@@ -28,9 +28,29 @@
             top: 300px;
             z-index: 2;
             margin: 0 auto;
+            width: 80%;
             max-width: 820px;
             opacity: 1;
+            transition: opacity 0.3s ease;
             // transform: translateY(300px) translateZ(-250px) scale(1.15);
+
+            @media (max-width: 1199px) {
+                top: 200px;
+            }
+
+            @media (max-width: 991px) {
+                top: 140px;
+                font-size: 6rem !important;
+            }
+
+            @media (max-width: 575px) {
+                top: 120px;
+                font-size: 3rem !important;
+            }
+
+            @media (max-width: 319px) {
+                top: 110px;
+            }
         }
 
         &_0 {
