@@ -44,8 +44,8 @@
             }
 
             @media (max-width: 575px) {
-                top: 120px;
-                font-size: 3rem;
+                top: 170px;
+                font-size: 5rem;
             }
 
             @media (max-width: 319px) {
@@ -54,7 +54,7 @@
         }
 
         &_0 {
-            background: url(../img/bg-0.png) 20% 0% / cover no-repeat;
+            background: url(../img/sk.png) 20% 0% / cover no-repeat;
             transform: translateY(0px) translateZ(-100px) scale(2);
 
             &::after {
@@ -64,24 +64,23 @@
         }
 
         &_1 {
-            background: url(../img/bg-1.png) 20% 0% / cover no-repeat;
-            transform: translateY(620px) translateZ(-50px) scale(1.5);
+            background: url(../img/mt.png) 20% 0% / cover no-repeat;
+            transform: translateY(530px) translateZ(-50px) scale(1.5);
 
             @media (max-width: 1199px) {
                 transform: translateY(470px) translateZ(-50px) scale(1.5);
             }
 
             @media (max-width: 991px) {
-                transform: translateY(250px) translateZ(-50px) scale(1.5);
+                transform: translateY(350px) translateZ(-50px) scale(1.5);
             }
 
             @media (max-width: 767px) {
-                background: url(../img/bg-1-XS.png) 20% 0% / cover no-repeat;
-                transform: translateY(300px) translateZ(-50px) scale(1.5);
+                transform: translateY(500px) translateZ(-50px) scale(1.5);
             }
 
             @media (max-width: 575px) {
-                transform: translateY(200px) translateZ(-50px) scale(1.5);
+                transform: translateY(450px) translateZ(-50px) scale(1.5);
             }
 
             @media (max-width: 319px) {
@@ -91,11 +90,11 @@
 
         &_2 {
             z-index: 3;
-            background: url(../img/bg-2-XS.png) 20% 0% / cover no-repeat;
+            background: url(../img/gr.png) 20% 0% / cover no-repeat;
             transform: translateY(690px) translateZ(0px) scale(1);
 
             @media (max-width: 1199px) {
-                transform: translateY(750px) translateZ(0px) scale(1);
+                transform: translateY(500px) translateZ(0px) scale(1);
             }
 
             @media (max-width: 991px) {
@@ -103,16 +102,15 @@
             }
 
             @media (max-width: 767px) {
-                // background: url(../img/bg-2-XS.png) 20% 0% / cover no-repeat;
-                transform: translateY(370px) translateZ(0px) scale(1);
+                transform: translateY(500px) translateZ(0px) scale(1);
             }
 
             @media (max-width: 575px) {
-                transform: translateY(240px) translateZ(0px) scale(1);
+                transform: translateY(470px) translateZ(0px) scale(1);
             }
 
             @media (max-width: 319px) {
-                transform: translateY(220px) translateZ(0px) scale(1);
+                transform: translateY(450px) translateZ(0px) scale(1);
             }
         }
     }
