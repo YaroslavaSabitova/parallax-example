@@ -30,9 +30,9 @@
             margin: 0 auto;
             width: 80%;
             max-width: 820px;
+            font-size: 8rem;
             opacity: 1;
             transition: opacity 0.3s ease;
-            // transform: translateY(300px) translateZ(-250px) scale(1.15);
 
             @media (max-width: 1199px) {
                 top: 200px;
@@ -40,12 +40,12 @@
 
             @media (max-width: 991px) {
                 top: 140px;
-                font-size: 6rem !important;
+                font-size: 6rem;
             }
 
             @media (max-width: 575px) {
                 top: 120px;
-                font-size: 3rem !important;
+                font-size: 3rem;
             }
 
             @media (max-width: 319px) {
@@ -54,7 +54,7 @@
         }
 
         &_0 {
-            // background: url(../img/bg-0.png) center/cover no-repeat;
+            background: url(../img/bg-0.png) top left/cover no-repeat;
             transform: translateY(0px) translateZ(-100px) scale(2);
 
             &::after {
@@ -64,7 +64,7 @@
         }
 
         &_1 {
-            // background: url(../img/bg-1.png) center/cover no-repeat;
+            background: url(../img/bg-1.png) top left/cover no-repeat;
             transform: translateY(620px) translateZ(-50px) scale(1.5);
 
             @media (max-width: 1199px) {
@@ -76,6 +76,7 @@
             }
 
             @media (max-width: 767px) {
+                background: url(../img/bg-1-XS.png) top left/cover no-repeat;
                 transform: translateY(380px) translateZ(-50px) scale(1.5);
             }
 
@@ -90,7 +91,7 @@
 
         &_2 {
             z-index: 3;
-            // background: url(../img/bg-2.png) center/cover no-repeat;
+            background: url(../img/bg-2.png) top left/cover no-repeat;
             transform: translateY(690px) translateZ(0px) scale(1);
 
             @media (max-width: 1199px) {
@@ -102,6 +103,7 @@
             }
 
             @media (max-width: 767px) {
+                background: url(../img/bg-2-XS.png) top left/cover no-repeat;
                 transform: translateY(320px) translateZ(0px) scale(1);
             }
 
@@ -116,7 +118,7 @@
             &::after {
                 @include pseudoelem;
                 top: unset;
-                bottom: -80px;
+                bottom: -20%;
                 z-index: 2;
                 height: 20%;
                 border: 1px solid red;
