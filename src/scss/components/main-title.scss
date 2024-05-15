@@ -5,4 +5,16 @@
     text-transform: capitalize;
     color: var(--color-white);
     line-height: 114%;
+
+    &::before {
+        @include pseudoelem;
+        content: 'a hiking guide';
+        top: -80px;
+        font-family: var(--font-family);
+        font-size: 18px;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: var(--color-accent);
+        letter-spacing: 0.33em;
+    }
 }
