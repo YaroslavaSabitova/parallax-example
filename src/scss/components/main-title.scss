@@ -5,15 +5,54 @@
     color: var(--color-white);
     line-height: 114%;
 
-    &::before {
+    &::before,
+    &::after {
         @include pseudoelem;
+    }
+
+    &::before {
         content: 'a hiking guide';
-        top: -80px;
+        top: -85px;
+        left: 100px;
         font-family: var(--font-family);
         font-size: 18px;
         font-weight: 800;
         text-transform: uppercase;
         color: var(--color-accent);
         letter-spacing: 0.33em;
+
+        @media (max-width: 575px) {
+            top: -57px;
+            font-size: 13px;
+        }
+
+        @media (max-width: 319px) {
+            left: 60px;
+            max-width: 80%;
+        }
+    }
+
+    &::after {
+        top: -35px;
+        left: 0px;
+        width: 72px;
+        height: 2px;
+        background-color: var(--color-accent);
+
+        @media (max-width: 1199px) {
+            top: -40px;
+        }
+
+        @media (max-width: 991px) {
+            top: -50px;
+        }
+
+        @media (max-width: 575px) {
+            top: -35px;
+        }
+
+        @media (max-width: 319px) {
+            width: 30px;
+        }
     }
 }

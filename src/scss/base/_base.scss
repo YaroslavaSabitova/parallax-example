@@ -17,11 +17,11 @@ body {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: normal;
-    src: url('./dist/fonts/Gilroy-ExtraBold.woff2') format('woff2'),
-        url('./dist/fonts/Gilroy-Light.woff2') format('woff2'),
-        url('./dist/fonts/Gilroy-ExtraBold.woff') format('woff'),
-        url('./dist/fonts/Gilroy-Light.woff') format('woff'),
-        url('./dist/fonts/Gilroy-ExtraBold.ttf') format('ttf'),
-        url('./dist/fonts/Gilroy-Light.ttf') format('ttf');
+    src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Light.woff2') format('woff2'),
+        url('../fonts/Gilroy-ExtraBold.woff') format('woff'),
+        url('../fonts/Gilroy-Light.woff') format('woff'),
+        url('../fonts/Gilroy-ExtraBold.ttf') format('ttf'),
+        url('../fonts/Gilroy-Light.ttf') format('ttf');
     font-display: swap;
 }
