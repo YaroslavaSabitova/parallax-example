@@ -25,13 +25,13 @@
         background: var(--color-transparent);
 
         &_text {
-            top: 330px;
-            left: 210px;
+            top: 305px;
+            left: 140px;
             z-index: 2;
             margin: 0 auto;
             width: 80%;
             max-width: 940px;
-            font-size: 9rem;
+            font-size: 8rem;
             opacity: 1;
             transition: opacity 0.3s ease;
 
@@ -76,7 +76,11 @@
 
         &_1 {
             background: url(../img/mt1.png) 0% 0% / cover no-repeat;
-            transform: translateY(630px) translateZ(-50px) scale(1.5);
+            transform: translateY(600px) translateZ(-50px) scale(1.5);
+
+            @media (max-width: 1399px) {
+                transform: translateY(400px) translateZ(-50px) scale(1.5);
+            }
 
             @media (max-width: 1199px) {
                 transform: translateY(470px) translateZ(-50px) scale(1.5);
@@ -84,15 +88,15 @@
 
             @media (max-width: 991px) {
                 background-position: 20% 0%;
-                transform: translateY(350px) translateZ(-50px) scale(1.5);
+                transform: translateY(320px) translateZ(-50px) scale(1.5);
             }
 
             @media (max-width: 767px) {
-                transform: translateY(400px) translateZ(-50px) scale(1.5);
+                transform: translateY(320px) translateZ(-50px) scale(1.5);
             }
 
             @media (max-width: 575px) {
-                transform: translateY(320px) translateZ(-50px) scale(1.5);
+                transform: translateY(300px) translateZ(-50px) scale(1.5);
             }
 
             @media (max-width: 319px) {
@@ -105,26 +109,30 @@
             background: url(../img/gr1.png) 0% 0% / cover no-repeat;
             transform: translateY(770px) translateZ(0px) scale(1);
 
+            @media (max-width: 1399px) {
+                background-position: 20% 0%;
+                transform: translateY(950px) translateZ(0px) scale(1);
+            }
+
             @media (max-width: 1199px) {
-                transform: translateY(600px) translateZ(0px) scale(1);
+                transform: translateY(900px) translateZ(0px) scale(1);
             }
 
             @media (max-width: 991px) {
-                background-position: 20% 0%;
-                transform: translateY(500px) translateZ(0px) scale(1);
+                transform: translateY(900px) translateZ(0px) scale(1);
             }
 
             @media (max-width: 767px) {
-                transform: translateY(520px) translateZ(0px) scale(1);
+                background-position: 25% 0%;
+                transform: translateY(880px) translateZ(0px) scale(1);
             }
 
             @media (max-width: 575px) {
-                background-position: 25% 0%;
-                transform: translateY(510px) translateZ(0px) scale(1);
+                transform: translateY(880px) translateZ(0px) scale(1);
             }
 
             @media (max-width: 319px) {
-                transform: translateY(490px) translateZ(0px) scale(1);
+                transform: translateY(850px) translateZ(0px) scale(1);
             }
         }
     }
