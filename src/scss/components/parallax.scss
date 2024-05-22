@@ -76,14 +76,14 @@
 
         &_1 {
             background: url(../img/mt.png) 0% 0% / cover no-repeat;
-            transform: translateY(485px) translateZ(-50px) scale(1.5);
+            transform: translateY(350px) translateZ(-50px) scale(1.5);
 
             @media (max-width: 1399px) {
                 transform: translateY(350px) translateZ(-50px) scale(1.5);
             }
 
             @media (max-width: 1199px) {
-                transform: translateY(470px) translateZ(-50px) scale(1.5);
+                transform: translateY(450px) translateZ(-50px) scale(1.5);
             }
 
             @media (max-width: 991px) {
@@ -107,7 +107,7 @@
         &_2 {
             z-index: 3;
             background: url(../img/gr.png) 0% 0% / cover no-repeat;
-            transform: translateY(715px) translateZ(0px) scale(1);
+            transform: translateY(770px) translateZ(0px) scale(1);
 
             @media (max-width: 1399px) {
                 background-position: 20% 0%;
@@ -115,11 +115,11 @@
             }
 
             @media (max-width: 1199px) {
-                transform: translateY(800px) translateZ(0px) scale(1);
+                transform: translateY(1100px) translateZ(0px) scale(1);
             }
 
             @media (max-width: 991px) {
-                transform: translateY(920px) translateZ(0px) scale(1);
+                transform: translateY(970px) translateZ(0px) scale(1);
             }
 
             @media (max-width: 767px) {
