@@ -76,14 +76,14 @@
 
         &_1 {
             background: url(../img/mt.png) 0% 0% / cover no-repeat;
-            transform: translateY(400px) translateZ(-50px) scale(1.5);
+            transform: translateY(380px) translateZ(-50px) scale(1.5);
 
             @media (max-width: 1399px) {
                 transform: translateY(350px) translateZ(-50px) scale(1.5);
             }
 
             @media (max-width: 1199px) {
-                transform: translateY(450px) translateZ(-50px) scale(1.5);
+                transform: translateY(800px) translateZ(-50px) scale(1.5);
             }
 
             @media (max-width: 991px) {
