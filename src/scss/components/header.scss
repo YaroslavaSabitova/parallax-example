@@ -1,16 +1,16 @@
 .main-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    width: 100%;
-
     font-family: var(--font-family);
+    background-color: var(--color-transparent);
 
     &__wrapper {
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+
         padding: 55px 75px;
+        width: 100%;
+        max-width: 192rem;
         justify-content: space-between;
-        background-color: var(--color-transparent);
 
         @media (max-width: 575px) {
             padding: 55px 35px;

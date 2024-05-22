@@ -76,7 +76,7 @@
 
         &_1 {
             background: url(../img/mt.png) 0% 0% / cover no-repeat;
-            transform: translateY(550px) translateZ(-50px) scale(1.5);
+            transform: translateY(450px) translateZ(-50px) scale(1.5);
 
             @media (max-width: 1399px) {
                 transform: translateY(400px) translateZ(-50px) scale(1.5);
@@ -107,7 +107,7 @@
         &_2 {
             z-index: 3;
             background: url(../img/gr1.png) 0% 0% / cover no-repeat;
-            transform: translateY(770px) translateZ(0px) scale(1);
+            transform: translateY(800px) translateZ(0px) scale(1);
 
             @media (max-width: 1399px) {
                 background-position: 20% 0%;
