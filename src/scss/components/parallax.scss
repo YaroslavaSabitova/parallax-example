@@ -66,7 +66,7 @@
         }
 
         &_0 {
-            background: url(../img/sk1.png) 0% 0% / cover no-repeat;
+            background: url(../img/sk.png) 0% 0% / cover no-repeat;
             transform: translateY(0px) translateZ(-100px) scale(2);
 
             &::after {
@@ -77,53 +77,53 @@
 
         &_1 {
             background: url(../img/mt.png) 0% 0% / cover no-repeat;
-            transform: translateY(380px) translateZ(-70px) scale(1.7);
+            transform: translateY(380px) translateZ(-50px) scale(1.5);
 
             @media (max-width: 1399px) {
-                transform: translateY(350px) translateZ(-70px) scale(1.7);
+                transform: translateY(350px) translateZ(-50px) scale(1.5);
             }
 
             @media (max-width: 1199px) {
-                transform: translateY(800px) translateZ(-70px) scale(1.7);
+                transform: translateY(800px) translateZ(-50px) scale(1.5);
             }
 
             @media (max-width: 1025px) {
-                transform: translateY(500px) translateZ(-70px) scale(1.7);
+                transform: translateY(500px) translateZ(-50px) scale(1.5);
             }
 
             @media (max-width: 991px) {
                 background-position: 20% 0%;
-                transform: translateY(120px) translateZ(-70px) scale(1.7);
+                transform: translateY(120px) translateZ(-50px) scale(1.5);
             }
 
             @media (max-width: 877px) {
-                transform: translateY(200px) translateZ(-70px) scale(1.7);
+                transform: translateY(200px) translateZ(-50px) scale(1.5);
             }
 
             @media (max-width: 835px) {
-                transform: translateY(200px) translateZ(-70px) scale(1.7);
+                transform: translateY(200px) translateZ(-50px) scale(1.5);
             }
 
             @media (max-width: 800px) {
-                transform: translateY(250px) translateZ(-70px) scale(1.7);
+                transform: translateY(250px) translateZ(-50px) scale(1.5);
             }
 
             @media (max-width: 767px) {
-                transform: translateY(320px) translateZ(-70px) scale(1.7);
+                transform: translateY(320px) translateZ(-50px) scale(1.5);
             }
 
             @media (max-width: 575px) {
-                transform: translateY(300px) translateZ(-70px) scale(1.7);
+                transform: translateY(300px) translateZ(-50px) scale(1.5);
             }
 
             @media (max-width: 319px) {
-                transform: translateY(180px) translateZ(-70px) scale(1.7);
+                transform: translateY(180px) translateZ(-50px) scale(1.5);
             }
         }
 
         &_2 {
             z-index: 3;
-            background: url(../img/gr1.png) 0% 0% / cover no-repeat;
+            background: url(../img/gr.png) 0% 0% / cover no-repeat;
             transform: translateY(800px) translateZ(0px) scale(1);
 
             @media (max-width: 1399px) {
