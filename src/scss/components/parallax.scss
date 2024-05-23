@@ -124,11 +124,15 @@
         &_2 {
             z-index: 3;
             background: url(../img/gr1.png) 0% 0% / cover no-repeat;
-            transform: translateY(780px) translateZ(0px) scale(1);
+            transform: translateY(800px) translateZ(0px) scale(1);
 
             @media (max-width: 1399px) {
                 background-position: 20% 0%;
                 transform: translateY(700px) translateZ(0px) scale(1);
+            }
+
+            @media (max-width: 1281px) {
+                transform: translateY(750px) translateZ(0px) scale(1);
             }
 
             @media (max-width: 1199px) {
