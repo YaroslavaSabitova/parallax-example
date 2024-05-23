@@ -30,7 +30,6 @@
             z-index: 2;
             margin: 0 auto;
             width: 80%;
-            // height: auto;
             max-width: 940px;
             font-size: 8rem;
             opacity: 1;
@@ -156,7 +155,7 @@
             }
 
             @media (max-width: 800px) {
-                transform: translateY(900px) translateZ(0px) scale(1);
+                transform: translateY(950px) translateZ(0px) scale(1);
             }
 
             @media (max-width: 767px) {
