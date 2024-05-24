@@ -1,0 +1,21 @@
+.shine {
+    &-container {
+        position: relative;
+        background-color: var(--color-bg);
+    }
+
+    &-element {
+        position: absolute;
+        z-index: 2000;
+        width: 25px;
+        height: 25px;
+        filter: blur(5px);
+        pointer-events: none;
+        transition: transform 0.5s ease;
+        transform: translate(-50%, -50%) scale(0);
+
+        &.active {
+            transform: translate(-50%, -50%) scale(1);
+        }
+    }
+}
