@@ -11,6 +11,19 @@ body {
     background-color: var(--color-bg);
     overflow-x: hidden;
     transition: all 0.5s ease;
+
+    // preloader imgs
+
+    &::after {
+        content: url(../img/account.svg) url(../img/arrow.svg) url(../img/gr.png)
+            url(../img/logo.svg) url(../img/mt.png) url(../img/sk.png);
+        position: absolute;
+        z-index: -1;
+        width: 0;
+        height: 0;
+        opacity: 0;
+        overflow: hidden;
+    }
 }
 
 @font-face {
