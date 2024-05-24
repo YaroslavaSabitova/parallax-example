@@ -1,6 +1,14 @@
 export default function () {
     const parallax = document.querySelector('.js_parallax');
-    const title = parallax.querySelector('.js_title');
+    const title = document.querySelector('.js_title');
+
+    setTimeout(() => {
+        title.classList.add('title-anim');
+    }, 0);
+
+    setTimeout(() => {
+        title.classList.remove('title-anim');
+    }, 1500);
 
     const SPEED = 1;
     const OPACITY = -0.2;
@@ -21,7 +29,7 @@ export default function () {
 
         title.setAttribute(
             'style',
-            `transform: translateY(${titleTransformY}%); opacity: ${titleOpacity};`
+            `transform: translate(0, ${titleTransformY}%); opacity: ${titleOpacity};`
         );
 
         if (parallax.scrollTop === 0) {
@@ -35,7 +43,7 @@ export default function () {
         if (titleTransformY.toFixed(0) >= newPos) {
             title.setAttribute(
                 'style',
-                `transform: translateY(${newPos}%); opacity: ${titleOpacity};`
+                `transform: translate(0, ${newPos}%); opacity: ${titleOpacity};`
             );
         }
     }
