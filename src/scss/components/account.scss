@@ -4,6 +4,7 @@
 
     @media (max-width: 991px) {
         margin-bottom: 30px;
+        font-size: 25px;
     }
 
     &__img,
@@ -15,6 +16,10 @@
     &__img {
         margin-right: 10px;
         background-color: var(--color-transparent);
+
+        @media (max-width: 319px) {
+            display: none;
+        }
     }
 
     &__link {
