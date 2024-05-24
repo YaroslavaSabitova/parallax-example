@@ -1,4 +1,9 @@
 .main-title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
     font-family: var(--second-family);
     font-weight: 300;
     text-transform: capitalize;
@@ -54,5 +59,48 @@
         @media (max-width: 319px) {
             width: 30px;
         }
+    }
+
+    &__scroll {
+        width: 126px;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-between;
+        font-family: var(--font-family);
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: none;
+        transition: color 0.3s ease;
+
+        svg {
+            width: 16px;
+            height: 24px;
+            animation: arrow-jumping 2s ease-in 0.5s infinite;
+
+            path {
+                transition: color 0.3s ease;
+            }
+        }
+
+        &:hover {
+            color: var(--color-accent);
+        }
+
+        &:hover svg path {
+            fill: var(--color-accent);
+        }
+    }
+}
+
+@keyframes arrow-jumping {
+    0%,
+    20%,
+    40%,
+    100% {
+        transform: translateY(0px);
+    }
+    10%,
+    30% {
+        transform: translateY(-15px);
     }
 }
