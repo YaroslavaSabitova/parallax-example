@@ -7,6 +7,7 @@ export default function () {
     }, 0);
 
     setTimeout(() => {
+        title.style.opacity = 1;
         title.classList.remove('title-anim');
     }, 1500);
 
