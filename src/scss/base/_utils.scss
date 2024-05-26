@@ -4,6 +4,10 @@
     max-width: 192rem;
 }
 
+.color-accent {
+    color: var(--color-accent);
+}
+
 .none {
     display: none !important;
 }
@@ -14,6 +18,10 @@
 
 .mb-5 {
     margin-bottom: 5rem;
+}
+
+.pl-150 {
+    padding-left: 150px;
 }
 
 .inset-0 {
