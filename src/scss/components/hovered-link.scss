@@ -1,0 +1,25 @@
+.hovered-link {
+    display: inline-flex;
+    transition: color 0.7s cubic-bezier(1, 0.68, 0.16, 0.9);
+
+    &::before {
+        @include pseudoelem;
+        top: unset;
+        bottom: -7px;
+        height: 2px;
+        background-color: var(--color-accent);
+        transition: transform 0.7s cubic-bezier(1, 0.68, 0.16, 0.9);
+        transform: scale3d(0, 5, 1);
+        transform-origin: 0% 50%;
+    }
+
+    &:hover::before {
+        transform: scale3d(1, 1, 1);
+    }
+
+    &:hover,
+    &:active {
+        color: var(--color-accent);
+        transition: color 0.7s cubic-bezier(1, 0.68, 0.16, 0.9);
+    }
+}
