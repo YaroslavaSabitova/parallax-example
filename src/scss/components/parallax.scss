@@ -64,7 +64,7 @@
         }
 
         &_0 {
-            background: url(../img/sk1.png) 0% 0% / cover no-repeat;
+            background: url(../img/sk.png) 0% 0% / cover no-repeat;
             transform: translateY(0px) translateZ(-100px) scale(2);
 
             &::after {
@@ -74,7 +74,7 @@
         }
 
         &_1 {
-            background: url(../img/mt1.png) 0% 0% / cover no-repeat;
+            background: url(../img/mt.png) 0% 0% / cover no-repeat;
             transform: translateY(380px) translateZ(-50px) scale(1.5);
 
             @media (max-width: 1399px) {
@@ -121,7 +121,7 @@
 
         &_2 {
             z-index: 3;
-            background: url(../img/gr1.png) 0% 0% / cover no-repeat;
+            background: url(../img/gr.png) 0% 0% / cover no-repeat;
             transform: translateY(800px) translateZ(0px) scale(1);
 
             @media (max-width: 1399px) {
