@@ -31,6 +31,10 @@
         top: 200vh;
     }
 
+    @media (max-width: 325px) {
+        top: 220vh;
+    }
+
     &__wrapper {
         margin: 0 auto;
         width: 100%;
