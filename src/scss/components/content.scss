@@ -22,8 +22,8 @@
         justify-content: space-between;
 
         @media (max-width: 1199px) {
-            padding: 0 25px !important;
-            margin: 0 auto 10rem;
+            padding: 0 25px 10px !important;
+            margin: 0 auto 15rem;
             flex-direction: column-reverse;
             gap: 150px !important;
         }
