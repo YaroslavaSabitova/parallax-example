@@ -11,11 +11,15 @@
         top: 250vh;
     }
 
+    @media (max-width: 1025px) {
+        top: 190vh;
+    }
+
     @media (max-width: 991px) {
         top: 200vh;
     }
 
-    @media (max-width: 835px) {
+    @media (max-width: 877px) {
         top: 180vh;
     }
 
@@ -23,11 +27,7 @@
         top: 220vh;
     }
 
-    @media (max-width: 574px) {
-        top: 180vh;
-    }
-
-    @media (max-width: 319px) {
+    @media (max-width: 575px) {
         top: 200vh;
     }
 
