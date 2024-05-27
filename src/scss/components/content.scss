@@ -7,6 +7,22 @@
     align-content: center;
     background-color: var(--color-bg);
 
+    @media (max-width: 1199px) {
+        top: 250vh;
+    }
+
+    @media (max-width: 767px) {
+        top: 220vh;
+    }
+
+    @media (max-width: 574px) {
+        top: 180vh;
+    }
+
+    @media (max-width: 319px) {
+        top: 200vh;
+    }
+
     &__wrapper {
         margin: 0 auto;
         width: 100%;
@@ -28,11 +44,21 @@
             gap: 150px !important;
         }
 
+        &__1,
+        &__3 {
+            padding: 0px 10px 0px 150px;
+        }
+
         &__2 {
+            padding: 0px 10px 0px;
             gap: 264px;
 
             @media (max-width: 1199px) {
                 flex-direction: column;
+            }
+
+            @media (max-width: 1399px) {
+                gap: 180px;
             }
         }
     }
@@ -40,9 +66,13 @@
     &__title {
         position: relative;
         font-family: var(--second-family);
-        font-size: 64px;
+        font-size: 6.4rem;
         font-weight: 600;
         color: #fff;
+
+        @media (max-width: 575px) {
+            font-size: 3.5rem;
+        }
 
         &__1 {
             &::before {
