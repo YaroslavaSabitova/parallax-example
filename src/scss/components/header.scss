@@ -7,13 +7,21 @@
         top: 0;
         z-index: 1000;
 
-        padding: 55px 75px;
+        padding: 55px 75px 30px;
         width: 100%;
         max-width: 192rem;
+
+        // border: 1px solid red;
         justify-content: space-between;
+        transition: all 0.3s ease;
 
         @media (max-width: 575px) {
             padding: 55px 35px;
+        }
+
+        &.header-fixed {
+            background-color: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(15px);
         }
     }
 

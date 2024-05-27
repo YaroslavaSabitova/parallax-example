@@ -23,13 +23,13 @@
         top: -80px !important;
 
         @media (max-width: 575px) {
-            top: -57px;
-            font-size: 13px;
+            top: -57px !important;
+            font-size: 13px !important;
         }
 
         @media (max-width: 319px) {
-            left: 60px;
-            max-width: 80%;
+            left: 60px !important;
+            max-width: 80% !important;
         }
     }
 
@@ -37,19 +37,19 @@
         top: -35px !important;
 
         @media (max-width: 1199px) {
-            top: -40px;
+            top: -40px !important;
         }
 
         @media (max-width: 991px) {
-            top: -37px;
+            top: -37px !important;
         }
 
         @media (max-width: 575px) {
-            top: -33px;
+            top: -33px !important;
         }
 
         @media (max-width: 319px) {
-            width: 30px;
+            width: 30px !important;
         }
     }
 

@@ -1,0 +1,15 @@
+.number {
+    position: relative;
+
+    &::before {
+        @include pseudoelem;
+        top: -155px;
+        left: -155px;
+        font-family: var(--font-family);
+        font-size: 24rem;
+        font-weight: 700;
+        color: #fff;
+        line-height: 100%;
+        opacity: 0.1;
+    }
+}
