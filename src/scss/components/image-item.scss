@@ -1,6 +1,9 @@
 .image-item {
+    display: flex;
     width: 100%;
     height: 100%;
+    align-items: center;
+    justify-content: center;
     transform-style: preserve-3d;
     perspective: 1000px;
 
@@ -8,6 +11,8 @@
         display: flex;
         width: 100%;
         height: 100%;
+        max-width: 566px;
+        max-height: 720px;
         align-items: center;
         justify-content: center;
         transition: transform 0.3s ease, box-shadow 0.5s ease-in-out;
