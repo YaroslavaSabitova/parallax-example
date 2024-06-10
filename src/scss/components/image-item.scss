@@ -1,0 +1,31 @@
+.image-item {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+
+    &__box {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease, box-shadow 0.5s ease-in-out;
+
+        &__img {
+            display: block;
+            max-width: 566px;
+            max-height: 720px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+
+            @media (max-width: 620px) {
+                width: 100%;
+            }
+        }
+    }
+
+    &:hover &__box {
+        box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.15);
+    }
+}
