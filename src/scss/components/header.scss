@@ -6,14 +6,16 @@
         position: fixed;
         top: 0;
         z-index: 1000;
-
-        padding: 55px 75px 30px;
         width: 100%;
         max-width: 192rem;
 
-        // border: 1px solid red;
+        padding: 55px 75px 30px;
+
         justify-content: space-between;
+
+        // background-color: rgba(0, 0, 0, 0.3);
         transition: all 0.3s ease;
+        // backdrop-filter: blur(15px);
 
         @media (max-width: 575px) {
             padding: 55px 35px;
@@ -73,11 +75,11 @@
 
 .nav {
     position: relative;
-    font-size: 18px;
     font-weight: 700;
+    font-size: 18px;
 
     @media (max-width: 991px) {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     &__link,

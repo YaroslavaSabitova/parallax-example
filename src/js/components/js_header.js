@@ -1,16 +1,19 @@
-// export default function () {
-//     const header = document.querySelector('.js_header');
-//     const parallax = document.querySelector('.js_parallax');
+export default function () {
+    const header = document.querySelector('.js_header');
+    const parallax = document.querySelector('.js_parallax');
 
-//     let scrollStarted = 0;
+    parallax.onscroll = function () {
+        if (parallax.scrollTop > 0) {
+            // header.setAttribute(
+            //     'style',
+            //     'background-color: rgba(0, 0, 0, 0.3); backdrop-filter: blur(15px)'
+            // );
 
-//     const parallaxTop = parallax.getBoundingClientRect().top.toFixed(0);
+            header.classList.add('header-fixed');
+        } else {
+            // header.removeAttribute('style');
 
-//     if () {
-//         header.classList.add('header-fixed');
-//     } else {
-//         header.classList.remove('header-fixed');
-//     }
-
-//     scrollStarted = scrollTop;
-// }
+            header.classList.remove('header-fixed');
+        }
+    };
+}

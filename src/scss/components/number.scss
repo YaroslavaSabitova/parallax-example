@@ -6,10 +6,15 @@
         top: -155px;
         left: -155px;
         font-family: var(--font-family);
-        font-size: 24rem;
         font-weight: 700;
-        color: #fff;
+        font-size: 24rem;
         line-height: 100%;
+        color: #fff;
         opacity: 0.1;
+        transition: opacity 0.3s ease-in;
+    }
+
+    &:hover::before {
+        opacity: 0.25;
     }
 }
