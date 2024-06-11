@@ -15,8 +15,12 @@
 
         transition: all 0.3s ease;
 
+        @media (max-width: 991px) {
+            padding: 30px 35px;
+        }
+
         @media (max-width: 575px) {
-            padding: 55px 35px;
+            padding: 20px 35px;
         }
 
         &.header-fixed {
