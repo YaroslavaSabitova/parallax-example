@@ -1,0 +1,43 @@
+.main-footer {
+    &__wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__wrapper_left {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    &__wrapper_right {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 21.2rem;
+    }
+
+    &__logo {
+        margin-bottom: 3.7rem;
+    }
+
+    &__claim,
+    &__legacy {
+        font-family: var(--font-family);
+        font-size: 1.8rem;
+        line-height: 178%;
+        color: var(--color-white);
+    }
+
+    &__claim {
+        max-width: 30.3rem;
+        margin-bottom: 12.2rem;
+        font-weight: 700;
+    }
+
+    &__legacy {
+        font-weight: 500;
+        opacity: 0.5;
+    }
+}

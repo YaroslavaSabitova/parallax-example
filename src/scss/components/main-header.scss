@@ -73,18 +73,3 @@
         }
     }
 }
-
-.nav {
-    position: relative;
-    font-weight: 700;
-    font-size: 18px;
-
-    @media (max-width: 991px) {
-        font-size: 30px;
-    }
-
-    &__link,
-    &__item {
-        color: var(--color-white);
-    }
-}

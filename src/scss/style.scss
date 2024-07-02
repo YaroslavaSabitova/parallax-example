@@ -9,9 +9,10 @@
 @import './base/breakpoints';
 
 // Components
-@import './components/header';
+@import './components/main-header';
 @import './components/parallax';
 @import './components/burger';
+@import './components/nav';
 @import './components/account';
 @import './components/main-title';
 @import './components/content';
@@ -20,3 +21,5 @@
 @import './components/hovered-link';
 @import './components/number';
 @import './components/image-item';
+@import './components/main-footer';
+@import './components/blog';

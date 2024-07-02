@@ -1,0 +1,36 @@
+.blog {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.6rem;
+
+    &__link {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 178%;
+        color: var(--color-white);
+        transition: all 0.3s ease;
+
+        &:hover {
+            color: var(--color-accent);
+        }
+    }
+
+    &__item {
+        transition: all 0.3s ease;
+
+        &_title {
+            margin-bottom: 8px;
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 2.4rem;
+            line-height: 133%;
+
+            &:hover {
+                color: var(--color-accent);
+            }
+        }
+    }
+}
