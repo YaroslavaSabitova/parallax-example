@@ -1,0 +1,62 @@
+.socials {
+    position: absolute;
+    top: 30.5rem;
+    left: 7.7rem;
+    z-index: 2;
+    display: flex;
+    width: 2.4rem;
+    height: 17.3rem;
+    flex-direction: column;
+    gap: 2.4rem;
+
+    @media (max-width: 1199px) {
+        top: 21rem;
+    }
+
+    @media (max-width: 991px) {
+        left: 3.5rem;
+    }
+
+    @media (max-width: 575px) {
+        top: 19rem;
+        right: 1.7rem;
+        left: unset;
+    }
+
+    &__text {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 1.8rem;
+        text-orientation: mixed;
+        color: var(--color-white);
+        transition: all 0.3s ease;
+        writing-mode: vertical-rl;
+
+        @media (max-width: 575px) {
+            color: var(--color-accent);
+        }
+
+        &:hover {
+            color: var(--color-accent);
+        }
+    }
+
+    &__img,
+    &__img path,
+    &__link {
+        transition: all 0.3s ease;
+    }
+
+    &__img path {
+        fill: var(--color-white);
+
+        @media (max-width: 575px) {
+            fill: var(--color-accent);
+        }
+    }
+
+    &__link:active &__img path,
+    &__link:hover &__img path {
+        fill: var(--color-accent);
+    }
+}
