@@ -47,12 +47,20 @@
         margin-bottom: 20rem;
         justify-content: space-between;
         gap: 114px;
+        opacity: 0;
+        transition: transform 0.5s ease, opacity 0.3s ease;
+        transform: translateY(200px);
 
         @media (max-width: 1199px) {
             margin: 0 auto 15rem;
             padding: 0 25px 10px !important;
             flex-direction: column-reverse;
             gap: 150px !important;
+        }
+
+        &.active {
+            opacity: 1;
+            transform: translateY(0px);
         }
 
         &__1,

@@ -28,16 +28,3 @@ body {
         overflow: hidden;
     }
 }
-
-@font-face {
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: normal;
-    src: url('./fonts/Gilroy-ExtraBold.woff2') format('woff2'),
-        url('./fonts/Gilroy-Light.woff2') format('woff2'),
-        url('./fonts/Gilroy-ExtraBold.woff') format('woff'),
-        url('./fonts/Gilroy-Light.woff') format('woff'),
-        url('./fonts/Gilroy-ExtraBold.ttf') format('ttf'),
-        url('./fonts/Gilroy-Light.ttf') format('ttf');
-    font-display: swap;
-}

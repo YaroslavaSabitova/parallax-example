@@ -6,7 +6,7 @@ export default function () {
     function onCardMove(event) {
         const box = event.currentTarget.querySelector('.js_box');
 
-        console.log('event:', event);
+        // console.log('event:', event);
 
         const x = (event.offsetX - box.offsetWidth / 2) * SPEED;
         const y = -(event.offsetY - box.offsetHeight / 2) * SPEED;
