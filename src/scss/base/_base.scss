@@ -5,11 +5,16 @@ body {
 }
 
 body {
+    padding-bottom: 12rem;
     font-family: var(--font-family);
     color: var(--color-white);
     background-color: var(--color-bg);
     transition: all 0.5s ease;
     overflow-x: hidden;
+
+    @media (max-width: 991px) {
+        padding-bottom: 10rem;
+    }
 
     &::after {
         content: url(../img/account.svg) url(../img/arrow.svg) url(../img/gr.png)

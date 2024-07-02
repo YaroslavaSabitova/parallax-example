@@ -1,7 +1,20 @@
 .main-footer {
+    @media (max-width: 1500px) {
+        padding: 0 2rem;
+    }
+
     &__wrapper {
         flex-direction: row;
+        align-items: flex-start;
         justify-content: space-between;
+
+        @media (max-width: 835px) {
+            gap: 5rem;
+        }
+
+        @media (max-width: 575px) {
+            flex-direction: column;
+        }
     }
 
     &__wrapper_left {
@@ -16,6 +29,10 @@
         align-items: flex-start;
         justify-content: space-between;
         gap: 21.2rem;
+
+        @media (max-width: 991px) {
+            gap: 5rem;
+        }
     }
 
     &__logo {
@@ -34,6 +51,10 @@
         max-width: 30.3rem;
         margin-bottom: 12.2rem;
         font-weight: 700;
+
+        @media (max-width: 575px) {
+            margin-bottom: 5rem;
+        }
     }
 
     &__legacy {
