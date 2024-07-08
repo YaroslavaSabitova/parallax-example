@@ -1,6 +1,7 @@
 # parallax-example
 
 В этом проекте реализовала параллакс эффект без использования библиотек.
+Создала разные CSS и JS-анимации, а так же адаптивное поведение без отрисованного макета.
 
 Проект выполнила со сборкой [Gulp](https://gulpjs.com/), где с помощью [npm](https://www.npmjs.com/) пакетов:
 * стили написаны на SCSS, разделены на компоненты, компилированы и сжаты в CSS;
@@ -12,6 +13,7 @@
 ----------------
 
 Parallax effect project without libraries and plugins.
+Made different CSS and JS-animations, and adaptive page for small screen resolutions without figma layout.
 
 This project is made with [Gulp](https://gulpjs.com/) toolkit and [npm](https://www.npmjs.com/) packages, where:
 * styles are written in components of SCSS code that has compiled and minified in CSS;
