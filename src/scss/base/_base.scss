@@ -1,6 +1,7 @@
 html,
 body {
     font-size: 62.5%;
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
@@ -10,7 +11,6 @@ body {
     color: var(--color-white);
     background-color: var(--color-bg);
     transition: all 0.5s ease;
-    overflow-x: hidden;
 
     @media (max-width: 991px) {
         padding-bottom: 10rem;
@@ -27,4 +27,18 @@ body {
         opacity: 0;
         overflow: hidden;
     }
+}
+
+.page {
+    margin-bottom: 20rem;
+
+    @media (max-width: 991px) {
+        margin-bottom: 10rem;
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: 192rem;
+    margin: 0 auto;
 }

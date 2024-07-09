@@ -1,8 +1,8 @@
 // Reset and base styles
 
 * {
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
     border: none;
 }
 
@@ -42,8 +42,8 @@ h4,
 h5,
 h6,
 p {
-    font-size: inherit;
     font-weight: inherit;
+    font-size: inherit;
 }
 
 ul,
@@ -57,9 +57,9 @@ img {
 
 img,
 svg {
+    display: block;
     height: auto;
     max-width: 100%;
-    display: block;
 }
 
 address {
