@@ -7,10 +7,10 @@ export default function () {
         menu.classList.toggle('menu-open');
 
         if (menu.classList.contains('menu-open')) {
-            document.body.setAttribute('style', 'overflow: hidden');
+            document.documentElement.setAttribute('style', 'overflow: hidden');
             parallax.setAttribute('style', 'overflow: hidden');
         } else {
-            document.body.removeAttribute('style');
+            document.documentElement.removeAttribute('style');
             parallax.removeAttribute('style', 'overflow: hidden');
         }
     });
